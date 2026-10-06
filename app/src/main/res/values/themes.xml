@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EX_I_GARG" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/guinda</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/guinda_suave</item>
+        <item name="colorOnPrimaryContainer">@color/guinda_oscuro</item>
+        <item name="colorSecondary">@color/guinda_claro</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOutline">@color/divisor</item>
+        <item name="android:colorBackground">@color/rosa_palido</item>
+        <item name="android:windowBackground">@color/rosa_palido</item>
+    </style>
+
+    <style name="Theme.EX_I_GARG" parent="Base.Theme.EX_I_GARG" />
+
+    <!-- Campo de texto con bordes redondeados -->
+    <style name="Campo" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeColor">@color/guinda</item>
+        <item name="startIconTint">@color/guinda</item>
+        <item name="android:layout_marginBottom">14dp</item>
+    </style>
+
+    <style name="Etiqueta">
+        <item name="android:textColor">@color/guinda_oscuro</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <!-- Fondo del ícono seleccionado en la barra inferior -->
+    <style name="IndicadorNav" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/guinda_suave</item>
+    </style>
+</resources>

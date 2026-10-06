@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta guinda -->
+    <color name="guinda">#7B1E3A</color>
+    <color name="guinda_oscuro">#561327</color>
+    <color name="guinda_claro">#A33A5B</color>
+    <color name="guinda_suave">#F7E8ED</color>
+    <color name="rosa_palido">#FBF4F6</color>
+
+    <color name="texto_principal">#2B1A20</color>
+    <color name="texto_secundario">#7A6A70</color>
+    <color name="divisor">#EADDE1</color>
+    <color name="burbuja_recibida">#EFE6E9</color>
+    <color name="en_linea">#4CAF50</color>
+</resources>

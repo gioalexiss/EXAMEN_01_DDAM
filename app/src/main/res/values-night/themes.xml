@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- La app usa siempre la paleta guinda en modo claro -->
+    <style name="Base.Theme.EX_I_GARG" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/guinda</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/guinda_suave</item>
+        <item name="colorOnPrimaryContainer">@color/guinda_oscuro</item>
+        <item name="colorSecondary">@color/guinda_claro</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOutline">@color/divisor</item>
+        <item name="android:colorBackground">@color/rosa_palido</item>
+        <item name="android:windowBackground">@color/rosa_palido</item>
+    </style>
+</resources>
